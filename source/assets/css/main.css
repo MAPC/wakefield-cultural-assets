@@ -1623,13 +1623,13 @@
 	}
 
 	body {
-		background-color: #935d8c;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, rgb(1,29,108) 15%, rgb(76,175,80) 85%);
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, rgb(1,29,108) 15%, rgb(76,175,80) 85%);
-		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, rgb(1,29,108) 15%, rgb(76,175,80) 85%);
-		background-image: url("images/overlay.png"), linear-gradient(45deg, rgb(1,29,108) 15%, rgb(76,175,80) 85%);
+		/*background-color: #935d8c;*/
+    
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#3b679e+0,7db9e8+100&1+0,0.46+100 */
+/**/
+    background: linear-gradient(to top, rgba(59,103,158,1) 70%,rgba(125,185,232,0.8) 100%), url("/images/aceaufgust.jpg") no-repeat;
+    /*background-repeat: no-repeat;*/
 	}
-
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
 			-moz-animation: none !important;
 			-webkit-animation: none !important;
@@ -1644,8 +1644,8 @@
 /* Type */
 
 	body {
-		background-color: #935d8c;
-		color: rgba(255, 255, 255, 0.65);
+/*		background-color: #935d8c;
+		color: rgba(255, 255, 255, 0.65);*/
 	}
 
 	body, input, select, textarea {

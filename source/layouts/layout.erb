@@ -10,6 +10,8 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+    <link href="//cartodb-libs.global.ssl.fastly.net/cartodbui/assets/4.3.58/stylesheets/public_editor3.css" media="all" rel="stylesheet" type="text/css">
+    <link href="//cartodb-libs.global.ssl.fastly.net/cartodbui/assets/4.3.58/stylesheets/deep_insights.css" media="all" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="assets/css/main.css" />
     <link rel="stylesheet" href="https://cartodb-libs.global.ssl.fastly.net/cartodb.js/v3/3.15/themes/css/cartodb.css" />
 
@@ -71,21 +73,6 @@
       <script src="assets/js/jquery.scrolly.min.js"></script>
       <script src="assets/js/skel.min.js"></script>
       <script src="assets/js/util.js"></script>
-      <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
       <script src="assets/js/main.js"></script>
-      <script src="https://cartodb-libs.global.ssl.fastly.net/cartodb.js/v3/3.15/cartodb.js"></script>
-      <script>
-      // get the viz.json url from the CARTO Editor
-      // - click on visualize
-      // - create new visualization
-      // - make visualization public
-      // - click on publish
-      // - go to API tab
-
-      window.onload = function() {
-        cartodb.createVis('map', 'https://mapc-admin.carto.com/u/mapc-admin/api/v1/viz/5e06ca82-9c79-11e6-bf23-0e3ebc282e83/viz.json', { https: true });
-      }
-      </script>
-
   </body>
 </html>
