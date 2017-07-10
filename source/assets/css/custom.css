@@ -1,0 +1,25 @@
+#intro > .spotlight {
+  -ms-align-items: initial;
+  -moz-align-items: initial;
+  -webkit-align-items: initial;
+  align-items: initial;
+}
+
+#intro > .spotlight > span.image {
+  display: inline-table;
+
+  padding: .3em;
+  margin-left: 3em;
+
+  border-radius: 10px;
+}
+
+#intro > .spotlight > span.image > img {
+  width: 18em;
+
+  border-radius: 8px;
+}
+
+.content .pdf-links {
+  margin-top: 1em;
+}
